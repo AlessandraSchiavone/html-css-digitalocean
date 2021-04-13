@@ -1,0 +1,58 @@
+.ms_navbar {
+    position:fixed;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    background-color: #FFFFFF; 
+}
+.ms_navbar .navbar-brand {
+    height: 70px;
+}
+.ms_navbar .navbar-brand > img {
+    height: 80%;
+}
+.ms_navbar a {
+    color: #031C4E;
+    font-size: 16px;
+}
+.ms_navbar .navbar-nav>li {
+    height: 70px;
+    line-height: 70px;
+}
+.ms_navbar .navbar-nav>li>a:not(.btn) {
+    line-height: 40px;
+}
+.ms_navbar .navbar-toggle .icon-bar {
+    width: 24px;
+    height: 3px;
+    background-color: #006AFF;
+}
+.ms_navbar .nav>li>a:focus, 
+.ms_navbar .nav>li>a:hover {
+    background-color: #FFFFFF;
+    color:#006AFF;
+}
+
+.ms_navbar .navbar-toggle {
+    margin-top: 16.5px;
+    margin-bottom: 16.5px;
+}
+
+.btn_sign,
+.ms_navbar a.btn_sign{
+    font-size: 16px;
+    color:#006AFF ;
+    background-color: white;
+    border-color: #006AFF;
+}
+.ms_navbar .navbar-nav>li>a.btn_sign {
+    display: inline-block;
+    padding: 6px 12px;
+}
+.btn_sign:hover,
+.ms_navbar .nav>li>a.btn_sign:focus, 
+.ms_navbar .nav>li>a.btn_sign:hover {
+    background-color: #006AFF;
+    color: white;
+    text-decoration: none;
+}
