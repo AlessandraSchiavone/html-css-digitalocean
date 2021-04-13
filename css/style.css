@@ -69,6 +69,7 @@ body{
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
     padding-top:100px;
+    padding-bottom:20px;
 }
 
 .header-text{
@@ -90,6 +91,7 @@ body{
 }
 .header-form{
     padding: 20px 0;
+    
     text-align: center;
     color:black;
     background-color: white;
@@ -142,11 +144,56 @@ body{
     text-decoration: underline;
     color:#579AFF;
 }
-@media screen and (max-width: 1024px) {
+.header-logos{
+    text-align: center;
+    background-color: #F3F5F9;
+}
+.header-logos h3{
+    text-transform: uppercase;
+}
 
-    .header-text > h1{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar-header {
+        float: none; 
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+    .collapse.in{
+        display:block !important;
+    }  
+    .navbar-collapse.in { 
+        overflow-y: auto !important;
+     }
+    .navbar-toggle {
+    
+         display: block; 
+    }
+    .navbar-toggle:focus {
+    outline: 0;
+    }
+     .header-text > h1{
         font-size:35px;
 
     }
     
-}
+ }
