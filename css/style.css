@@ -166,8 +166,9 @@ body{
     height:100%;
 }
 .text-blutag{
-    margin-top:20px;
-    font-weight: 600;
+    padding-top:20px;
+    font-size:16px;
+    font-weight:600;
     color: #006AFF;
 }
 .text-blutag > span{
@@ -178,8 +179,10 @@ body{
 /*main*/
 
 /*deploy*/
-#deploy{
-    margin:40px 0;
+#deploy,
+#droplets,
+#business{
+    padding:50px 0;
 }
 .container > .title-blu{
     font-size: 35px;
@@ -197,10 +200,10 @@ body{
     color:#5C6A88;
 }
 
-.deploy_col{
+.row_col{
     margin:50px 0;
 }
-.deploy_col img{
+.row_col img{
     margin-top:10px;
 }
 .list_inline{
@@ -218,9 +221,7 @@ body{
 .background-grey{
     background-color: #F3F5F9;
 }
-#droplets{
-    padding:50px 0;
-}
+
 #droplets p{
     line-height:2.2;
     margin-bottom:50px;
