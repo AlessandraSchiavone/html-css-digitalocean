@@ -270,7 +270,7 @@ body{
     font-size:35px;
     font-weight: 700;
 }
-.row :last-child{
+#customers-table .row :last-child{
     border-bottom: none;
 }
 .row-table{ 
