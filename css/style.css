@@ -261,9 +261,9 @@ body{
     border:1px solid #006AFF;
 }
 /*customers-table*/
-#customers-table{
-    background:linear-gradient(45deg, #0047C5 , #00219D);
-    
+#customers-table,
+#create-account{
+    background:linear-gradient(45deg, #0047C5 , #00219D); 
 }
 #customers-table h3{
     color:white;
@@ -292,6 +292,9 @@ body{
     font-weight: 400;
     color:#00D5D2;
 }
+
+/*devteams*/
+
 .box-gallery{
     margin-top:100px;
 }
@@ -325,10 +328,20 @@ div.chevron-right{
     padding-bottom:30px;
 }
 
+/*create-account*/
+#create-account h2{
+    color:white;
+    font-size:35px;
+    font-weight: 800;
+}
 
-
-
-
+.btn-white{
+    margin-top:10px;
+    background: white;
+    font-size:18px;
+    font-weight: 500;
+    color: #006AFF;
+}
 
 
 @media screen and (max-width: 768px) {
