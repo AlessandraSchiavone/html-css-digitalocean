@@ -147,7 +147,6 @@ body{
 .header-logos{
     font-size: 18px;
     text-align: center;
-    background-color: #F3F5F9;
     padding:40px 0;
 }
 .header-logos h4{
@@ -190,7 +189,7 @@ body{
 }
 .title-blu{
     font-size:22px;
-    font-weight: 700;
+    font-weight:700;
     color:#031C4E;
 }
 .par-grey{
@@ -216,19 +215,52 @@ body{
     text-align: left;
     list-style: none;
 }
+.background-grey{
+    background-color: #F3F5F9;
+}
+#droplets{
+    padding:50px 0;
+}
+#droplets p{
+    line-height:2.2;
+    margin-bottom:50px;
+}
+#droplets figure > img{
+    padding:0 20px;
+    width:70%;
+    margin:20px auto;
+}
 
-
-
-
-
-
-
+.chevron-left > i, 
+.chevron-right > i{
+    font-size:35px;
+    font-weight:900;
+}
+#droplets figcaption{
+    color:#031C4E;
+    font-weight: 600;
+    font-size:15px;
+}
+.decoration ul{
+    margin-top:50px;
+    padding:0;
+    list-style: none;
+}
+.decoration ul > li:first-child{
+    background-color:#006AFF;
+}
+.decoration ul > li{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius:50%;
+    border:1px solid #006AFF;
+}
 
 
 @media screen and (max-width: 768px) {
    .header-text > h1{
         font-size:35px;
-
     }
 }
 
@@ -255,4 +287,10 @@ body{
         font-size:35px;
     }
     
+ }
+
+ @media screen and (min-width: 1200px) {
+    .decoration ul{
+        margin-top:10px;
+    }
  }
