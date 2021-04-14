@@ -177,13 +177,16 @@ body{
 
 
 /*main*/
-
-/*deploy*/
 #deploy,
 #droplets,
-#business{
+#business,
+#customers-table,
+#devteams,
+#create-account{
     padding:50px 0;
 }
+/*deploy*/
+
 .container > .title-blu{
     font-size: 35px;
 }
@@ -191,12 +194,12 @@ body{
     font-size: 22px;
 }
 .title-blu{
-    font-size:22px;
+    font-size:20px;
     font-weight:700;
     color:#031C4E;
 }
 .par-grey{
-    font-size:17px;
+    font-size:16px;
     color:#5C6A88;
 }
 
@@ -221,7 +224,7 @@ body{
 .background-grey{
     background-color: #F3F5F9;
 }
-
+/*droplets*/
 #droplets p{
     line-height:2.2;
     margin-bottom:50px;
@@ -257,6 +260,45 @@ body{
     border-radius:50%;
     border:1px solid #006AFF;
 }
+/*customers-table*/
+#customers-table{
+    background:linear-gradient(45deg, #0047C5 , #00219D);
+    
+}
+#customers-table h3{
+    color:white;
+    font-size:35px;
+    font-weight: 700;
+}
+.row :last-child{
+    border-bottom: none;
+}
+.row-table{ 
+    margin:10px 0px;
+    padding-bottom:5px;
+    border-bottom:1px solid white;
+}
+
+.row-table [class*="col-xs-2"]{
+    color:white;
+    text-transform: uppercase;
+}
+.row-table [class*="col-xs-6"]{
+    color:lightgrey;
+}
+.row-table [class*="col-xs-4"] > .text-blutag{
+    font-size:12px;
+    padding-top:0;
+    font-weight: 400;
+    color:#00D5D2;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
