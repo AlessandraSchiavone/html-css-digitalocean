@@ -76,8 +76,8 @@ body{
     padding:30px 10px;
 }
 .header-text > h1{
-    font-size:60px;
-    font-weight: 600;
+    font-size:65px;
+    font-weight:600;
     color:white;
 }
 .header-text p{
@@ -107,9 +107,9 @@ body{
     font-weight: 700;
     color:#006AFF;
 }
-::placeholder{
+/* ::placeholder{
     color:grey;
-}
+} */
 #InputEmail1,
 #InputPassword1{
     font-size:18px;
@@ -143,6 +143,7 @@ body{
     text-decoration: underline;
     color:#579AFF;
 }
+/*Logos*/
 .header-logos{
     font-size: 18px;
     text-align: center;
@@ -156,18 +157,69 @@ body{
     text-transform: uppercase;
 }
 .logo-item{
-    margin:30px 0;
+    height:150px;
+    line-height:150px;
+    margin:10px 0; 
 }
-
+.logo-item > img{
+    vertical-align: middle;
+    width: 100%;
+    height:100%;
+}
 .text-blutag{
     margin-top:20px;
     font-weight: 600;
     color: #006AFF;
 }
-
 .text-blutag > span{
     margin-left:5px;
 }
+
+
+/*main*/
+
+/*deploy*/
+#deploy{
+    margin:40px 0;
+}
+.container > .title-blu{
+    font-size: 35px;
+}
+.container > .par-grey{
+    font-size: 22px;
+}
+.title-blu{
+    font-size:22px;
+    font-weight: 700;
+    color:#031C4E;
+}
+.par-grey{
+    font-size:17px;
+    color:#5C6A88;
+}
+
+.deploy_col{
+    margin:50px 0;
+}
+.deploy_col img{
+    margin-top:10px;
+}
+.list_inline{
+    padding-left:10px;
+    margin-top:10px;
+    border-left: 2px solid #CCCCCC;
+}
+.list_inline > li{
+    color:#5C6A88;
+    font-size: 20px;
+    line-height: 2.2;
+    text-align: left;
+    list-style: none;
+}
+
+
+
+
 
 
 
@@ -180,19 +232,12 @@ body{
     }
 }
 
-
-
-
-
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .navbar-header {
         float: none; 
     }
     .navbar-collapse.collapse {
         display: none !important;
-        height: auto !important;
-        padding-bottom: 0;
-        overflow: visible !important;
     }
     .collapse.in{
         display:block !important;
@@ -201,15 +246,13 @@ body{
         overflow-y: auto !important;
      }
     .navbar-toggle {
-    
          display: block; 
     }
     .navbar-toggle:focus {
-    outline: 0;
+        outline: 0;
     }
      .header-text > h1{
         font-size:35px;
-
     }
     
  }
