@@ -349,13 +349,29 @@ footer{
     background-color:#031C4E;
     color:#979FB2;
 }
+.copyright h3{
+    font-size: 18px;
+}
 
 .copyright .list-inline > li > a{
     font-size:20px;
     color:#979FB2;
 }
 
-
+.link .list_block {
+    border-left:none;
+}
+.link .list_block> li h2{
+    color:white;
+    font-size: 20px;
+}
+.link .list_block> li{
+    font-size:18px;
+    line-height: 1.6;
+}
+.link .list_block> li> a{
+    color:#979FB2;
+}
 
 
 
