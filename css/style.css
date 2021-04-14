@@ -182,7 +182,8 @@ body{
 #business,
 #customers-table,
 #devteams,
-#create-account{
+#create-account,
+footer{
     padding:50px 0;
 }
 /*deploy*/
@@ -209,12 +210,12 @@ body{
 .row_col img{
     margin-top:10px;
 }
-.list_inline{
+.list_block{
     padding-left:10px;
     margin-top:10px;
     border-left: 2px solid #CCCCCC;
 }
-.list_inline > li{
+.list_block> li{
     color:#5C6A88;
     font-size: 20px;
     line-height: 2.2;
@@ -342,6 +343,20 @@ div.chevron-right{
     font-weight: 500;
     color: #006AFF;
 }
+/*footer*/
+
+footer{
+    background-color:#031C4E;
+    color:#979FB2;
+}
+
+.copyright .list-inline > li > a{
+    font-size:20px;
+    color:#979FB2;
+}
+
+
+
 
 
 @media screen and (max-width: 768px) {
