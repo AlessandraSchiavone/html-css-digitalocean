@@ -234,12 +234,12 @@ footer{
 }
 /*droplets*/
 #droplets p{
-    line-height:2.2;
+    margin-top:20px;
     margin-bottom:50px;
 }
 #droplets figure > img{
     padding:0 20px;
-    width:70%;
+    width:80%;
     margin:20px auto;
 }
 
@@ -250,7 +250,7 @@ footer{
 }
 #droplets figcaption{
     color:#031C4E;
-    font-weight: 600;
+    font-weight:600;
     font-size:15px;
 }
 .decoration ul{
